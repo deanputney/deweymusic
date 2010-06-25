@@ -1,0 +1,13 @@
+#side {
+	float: left;
+}
+#content {
+	float:right;
+}
+#playlist .next{
+	font-style: bold;
+	color: red;
+}
+#playlist {
+	list-style: none;
+}

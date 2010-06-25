@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+<head>
+<script type="text/javascript" src="javascripts/ajax.js"></script> 
+</head>
+<body>
+<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
+
+<fb:login-button  autologoutlink=true  onlogin="javascript:makeFacebookRequest(fb_id, loggedinuser, email, 'test@test.com',htmlID, defaultHtml)"></fb:login-button>
+<fb:profile-pic uid="loggedinuser" linked="true" />
+
+
+<script type="text/javascript">  FB.init("e4b33c62843d8f7be91486caad57df58", "xd_receiver.htm"); </script>
+</body>
+</html>
